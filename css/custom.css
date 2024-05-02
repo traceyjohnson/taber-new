@@ -446,6 +446,8 @@ h1, h2, h3, h4, h5 {
     font-size: .8em;
 }
 
+
+
 img {
     max-width: 100%;;
 }
@@ -583,18 +585,24 @@ img {
 } 
 
 @media only screen and (min-width: 992px) and (max-width:1120px) {
+
     .navbar-brand img {
         max-width: 170px;
         min-width: 170px;
     }
+
  }
 
  @media (max-width: 800px) {
-
-
     .navbar-brand img {
         max-width: 225px;
         min-width: 100px;
     }
 
+ }
+
+ @media only screen and (min-width: 600px) and (max-width:995px) {  
+    content-header {
+        font-size:.6em;
+    }
  }
