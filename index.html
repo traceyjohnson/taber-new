@@ -24,7 +24,50 @@
 <body>
 
 <!-- Top Nav -->
-<div w3-include-html="_resources/top-nav.html"></div> 
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-charcoal py-3">
+  <a class="navbar-brand" href="index.html"><img src="_images/web-logo-blue-white.png" alt="Taber International Logo"></a>
+    <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarsSite" aria-controls="navbarsSite aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarsSite">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="services.html">Overview</a>
+            <a class="dropdown-item" href="combustion-ai.html">Combustion Optimization Using AI</a>
+            <a class="dropdown-item" href="computer-vision.html">Computer Vision Automation</a>
+            <a class="dropdown-item" href="dashboards.html">Custom Dashboards</a>
+            <a class="dropdown-item" href="hydrogen-pressure.html">Hydrogren Pressure Optimization</a>
+            <a class="dropdown-item" href="reheat-furnace.html">Reheat Furnace Optimzation</a>
+            <a class="dropdown-item" href="sootblowing.html">Knowledge Based Sootblowing</a>
+            <a class="dropdown-item" href="predictive-maintenance.html">Predictive Maintenance</a>
+            <a class="dropdown-item" href="control-optimization.html">Hg PAC Control Optimization</a>
+            <a class="dropdown-item" href="cooling-tower.html">Cooling Tower Optimization</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../industries.html">Industries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../news.html">Taber News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about.html">About Us</a>
+        </li>
+        <li><a class="btn btn-lg btn-taber-blue" href="../contact.html">talk to an expert&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></a></li>
+  
+          </div>
+        </li>
+      </ul>
+    </div>
+</nav> 
 
 <!-- video banner -->
 <header class="header-video">
@@ -126,7 +169,7 @@
 </main>
 
 <!-- CTA paragraph -->
-<section id="cta" class="pt-5 pb-4" style="background-image: url(images/circuits-background.png); border-top: solid 2px #F2F2F2;">
+<section id="cta" class="pt-5 pb-4" style="background-image: url(_images/circuits-background.png); border-top: solid 2px #F2F2F2;">
     <p class="xl text-center charcoal">optimize the complex, automate the mundane
       <br>
     <a class="btn btn-lg btn-taber-blue mt-5" href="contact.html">talk to an expert&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
