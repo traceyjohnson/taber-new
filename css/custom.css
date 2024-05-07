@@ -504,7 +504,7 @@ footer .contact {
     background-color: #404040;
 }
 
-.box-charcoal h2 {
+.box-charcoal h2, .box-charcoal p {
     color: #fff;
 }
 
