@@ -276,20 +276,22 @@ a.btn {
 
 /* news */
 
-#current article {
-    margin: 0 0 80px;
-}
-
 article {
     display: block;
 }
 
+
+.current article {
+    margin-bottom: 100px;
+}
+
 .current .banner {
-    margin: 0 0 30px;
+    margin-bottom: 10px;
     position: relative;
     display: flex;
     align-items: flex-end;
     min-height: 380px;
+    border-bottom: 10px solid #96752F;
 }
 
 .current .banner img {
@@ -305,16 +307,21 @@ article {
 }
 
 .current .banner .title {
+    width: 100%;
     padding: 20px;
     position:relative;
     z-index: 1;
-    background-color: rgba(47, 85, 151, .8)
-    background-color: rgba()
+    background-color: rgba(47, 85, 151, .8);
 }
 
 .current .banner a {
     color: #ffffff; 
     text-decoration: none;
+}
+
+.featured {
+    padding: 0 40px 0 40px;
+    border-left: 1px solid #D9D9D9;
 }
 
 .featured article {
@@ -335,18 +342,12 @@ article {
 
 .featured .content {
     width: 80%;
-    padding: 0 0 0 20px;
+    padding-left: 20px;
 }
 
-.news-thumb {
-    border: solid 5px #000000;
+.featured .content a{
+    text-decoration: none;
 }
-
-.news-img {
-    border-bottom: solid 15px #96752F;
-}
-
-
 
 
 /* navigation */
@@ -690,7 +691,6 @@ h1, h2, h3, h4, h5 {
       .jumbotron-content h1 {
         margin-top: 100px;
       }
-
 } 
 
 @media only screen and (min-width: 992px) and (max-width:1120px) {
@@ -699,7 +699,6 @@ h1, h2, h3, h4, h5 {
         max-width: 170px;
         min-width: 170px;
     }
-
  }
 
  @media (max-width: 800px) {
@@ -707,6 +706,11 @@ h1, h2, h3, h4, h5 {
         max-width: 225px;
         min-width: 100px;
     }
+
+    .featured {
+        border-left: 1px solid #96752F;
+    }
+
 
  }
 
