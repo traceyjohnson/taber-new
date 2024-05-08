@@ -177,6 +177,10 @@ a:hover {
     background-color: #96752F;
 }
 
+.inlinealert-taber-gray > div:first-child {
+    background-color: #A5A5A5;
+}
+
 
 /* buttons */
 
